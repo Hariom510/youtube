@@ -3,12 +3,12 @@
 
 *{
   margin: 0;
-  padding: 0;
+  padding: 1px;
   /* background-color: black; */
 }
 body{
   background-color: black;
-  /* text-align: center; */
+  text-align: center;
 }
 hr{
   color: white;
@@ -53,116 +53,100 @@ a:hover{
 h4:hover{
   color: red;
 }
-/* h2:hover{
-  color:red;
-}
-h3:hover{
-  color: red;
-} */
 h3,h4,h6{
   color: white;
-}
-.icon-inner {
-  width: 98%;
-  position: relative;
-  left: 0;
-  right: 0;
-  margin: auto;
-  min-height: 340px;
-  padding: auto;
-  text-align: center;
+  font-family: font-family: 'Ubuntu', sans-serif;
 }
 
-.col-1 {
-  float: left;
-}
-
-.col-2 {
-  display: inline-block;
-  margin: 0 auto;
-}
-
-.col-3 {
-  float: right;
-}
-
-.cooli {
-  display: inline-block;
-  padding: 5px;
-  width: 32%;
-  text-align: center;
-  position: relative;
-  /* border-color: white; */
-  /* border-style: double; */
-  /* border: 0.4px  white;
-  border-radius: 5px; */
-  margin: 5px 0;
-}
-/* h6{
-  text-align: left;
-} */
 .h6{
   display: inline-block;
-  padding: 2px;
-  width: 350px;
+  padding: 0px;
+  width: 280px;
   text-align: left;
   position: relative;
 }
 iframe{
-  width: 350px;
+  width: 280px;
   height: 215px;
+}
+@media screen and (max-width: 1200px){
+  iframe{
+    width: 100%;
+    height: 350px;
+  }
+  .h6{
+    width:100%;
+  }
 }
 .about{
   background-color: #171717;
   color: white;
 }
 #features{
-  padding: 2% 2%;
+  padding: 0 2% 2%;
   /* background-color: #fff; */
   /* position: relative; */
 }
-.feature-box{
-  padding: 5px;
-
+#features2{
+  padding: 0 2% 2%;
+}
+#features3{
+  padding: 2% 2%;
 }
 
-.par1{
+.feature-box{
+  padding: 0px;
+}
+/* .row{
+  padding-top: 0;
+} */
+
+ .par1{
   width: 50%;
   display: flex;
   justify-content: center;
   margin: 10% auto;
 }
-.r1{
+/* .r1{
   width: 60%;
-  margin: 1% 5%;
+  margin: 1% 5%; */
   /* background-color: black; */
-}
+/* }
 .r2{
   width: 80%;
   display: flex;
   justify-content: center;
   margin: 3% auto;
-}
-@media screen and (max-width: 1160px) {
+} */
+
+/* @media screen and (max-width: 1045px){
+  .feature-box{
+    width:90%;
+  }
+} */
+/* @media screen and (max-width: 1160px) {
+  .icon-inner{
+    width: auto;
+  }
   .cooli{
-    min-height: 550px;
-    width: 100%;
+    min-height: 580px;
+    width: 90%;
     max-width: 100%;
     margin: 2px 0;
   }
-  .h6{
+  .h3{
     display: inline-block;
     padding: 2px;
     width: 100%;
     text-align: left;
     position: relative;
-  }
+  } */
 
-  iframe{
-    width:100%;
-    height: 450px;
-  }
-}
+  /* iframe{
+    width:90%;
+    height: 400px;
+  } */
+/* } */
 footer{
   text-align: center;
   color: white;
